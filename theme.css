@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+html {
+  background-image: linear-gradient(to bottom, #373445, #312E3D);
+  height: 100%;
+}
+
+.everything {
+  background-color: #2D4F61;
+  margin: 10px 20px 10px 20px;
+  border: 3px solid white;
+}
+
+/*---------- The default bar at the top ----------*/
+/*--- Title ---*/
+.myName {
+  background-image: linear-gradient(to top right, #479DBF, #6EB2C7);
+  color: #373445;
+}
+
+.myName h1 {
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.myName h1:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-size: 42px;
+}
+
+.myName h2 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+}
+
+.notice {
+  opacity: 0;
+  padding: 10px;
+  -webkit-animation-name: moveit;
+  animation-name: moveit;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+@keyframes moveit {
+  0% {
+    padding-left: 10px;
+  }
+  50% {
+    padding-left: 15px;
+  }
+  100% {
+    padding-left: 10px;
+  }
+}
+
+.myName h1:hover + .notice {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  opacity: 100;
+}
+
+/*--- Navigation Buttons ---*/
+.navigation {
+  display: flex;
+}
+
+.navigation button {
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  flex: 1;
+  height: 20px;
+  background-color: #365268;
+  color: white;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.navigation button:hover {
+  background-color: white;
+  color: #365268;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.navigation button a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+  width: 100%;
+}
+
+/*---------- css for home page ------------*/
+#info {
+  display: flex;
+  overflow: visible;
+}
+
+.homeName {
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: #479DBF;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  text-align: center;
+  padding: 3px 3px 0px 3px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.homeName:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-size: 42px;
+}
+
+#intro {
+  color: white;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+  padding: 20px 20px 0px 20px;
+}
+
+#pfp {
+  width: 100%;
+  border: 10px solid white;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.7);
+  transition-duration: 0.3s;
+  margin: 10px;
+}
+
+#pfp:hover {
+  filter: brightness(110%);
+}
+
+#plugMyIg {
+  -webkit-animation-name: moveThePlug;
+  animation-name: moveThePlug;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveThePlug {
+  0% {
+    padding-right: 15px;
+  }
+  50% {
+    padding-right: 20px;
+  }
+  100% {
+    padding-right: 15px;
+  }
+}
+
+#thePlug {
+  text-align: right;
+  font-style: italic;
+  color: white;
+}
+
+/* ----------- css for about page ----------- */
+
+#introAbout {
+  color: white;
+  font-size: 18px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+  padding: 20px 20px 20px 20px;
+}
+
+#SocialMediaTitle {
+  color: white;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+  padding: 0px 20px 20px 20px;
+}
