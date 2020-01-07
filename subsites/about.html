@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>Projects</title>
+    <meta charset="UTF-8">
     <link rel="shortcut icon" href="../pics/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../pics/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../theme.css" type="text/css">
+    <script src="../script.js"></script>
   </head>
 
   <body>
@@ -31,11 +33,23 @@
       <div class="everything">
         <p  id="introAbout">I am currently a first-year student studying at the University of Toronto.
         My goal is to pursue a career in the quant field of computer science.</p>
-        <p id="SocialMediaTitle">Social Media</p>
-        <ul>
-          <li>Facebook: Aaron Hong</li>
-          <li>Snapchat: airroon</li>
-          <li>Instagram: @aaronhongry</li>
+        <u><p id="SocialMediaTitle">Resume</p></u>
+        <p id="introAbout" style="padding-top: 10px;">The current resume is outdated but below is the resume
+          I used and got the job at Abercrombie and Fitch. Granted, they don't really even
+        look at the resumes like that, but it still landed me the interview. Feel free to contact
+      me for the Word template of the resume if you really need it.</p>
+        <div style="padding: 5px 10px 5px 20px;">
+          <button id="styleOpenResume" onclick="openResume()">Show Resume</button>
+        </div>
+        <div id="showResume" style="display: none;">
+          <iframe src="../subsites/Aaron-Hong-Resume-2019-Censored.pdf#toolbar=0" frameBorder="0" width="100%" height="100%"></iframe>
+        </div>
+        <u><p id="SocialMediaTitle">Social Media</p></u>
+        <ul id="socials">
+          <li><img src="../pics/iconfinder_square-facebook_317727.png">Facebook: <a id="facePlug" href="https://www.facebook.com/aaron.hong.315" target="_blank">Aaron Hong</a></li>
+          <li><img src="../pics/snapchat-512.png">Snapchat: <a id="snapPlug" href="../pics/82557145_465365220828228_638422823848640512_n.jpg" target="_blank">airroon</a></li>
+          <li><img src="../pics/iconfinder_Instagram_1298747.png">Instagram: <a id="instaPlug" href="https://www.instagram.com/aaronhongry/" target="_blank">@aaronhongry</a><span id="showAndy">also follow the <s>sexy</s> ugly guy @aaax_af</span></li>
+          <li><img src="../pics/gmail-256.png">E-Mail: <a id="emailPlug">aaronhenghong@gmail.com</a></li>
         </ul>
       </div>
     </main>

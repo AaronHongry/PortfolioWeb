@@ -147,11 +147,12 @@ html {
 }
 
 #pfp {
-  width: 100%;
+  width: 800px;
   border: 10px solid white;
   box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.7);
   transition-duration: 0.3s;
   margin: 10px;
+  z-index: 10;
 }
 
 #pfp:hover {
@@ -180,7 +181,7 @@ html {
 }
 
 #thePlug {
-  text-align: right;
+  float: right;
   font-style: italic;
   color: white;
 }
@@ -191,12 +192,100 @@ html {
   color: white;
   font-size: 18px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 0px 20px;
+}
+
+/* ----- Resume Section ----- */
+#showResume {
+  height: 1070px;
+  overflow: hidden;
+  display: none;
+}
+
+#styleOpenResume {
+  background-color: #373445;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 30px 5px 30px;
+  font-size: 14px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+#styleOpenResume:hover {
+  filter: brightness(150%);
+}
+
+
+/* ----- Social Media Section ----- */
+.everything u {
+  color: white;
 }
 
 #SocialMediaTitle {
   color: white;
   font-size: 24px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
-  padding: 0px 20px 20px 20px;
+  padding: 5px 20px 0px 20px;
+}
+
+#socials {
+  padding: 10px 20px 20px 20px;
+}
+
+#socials li {
+  color: white;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+#socials li img {
+  width: 18px;
+  padding-right: 5px;
+}
+
+#socials li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#socials li a:hover {
+  font-size: 20px;
+}
+
+#facePlug:hover {
+  color: #3B5999;
+}
+
+#snapPlug:hover {
+  color: #ECE000;
+}
+
+#instaPlug:hover {
+  background: -webkit-linear-gradient( #FD9840 0%, #FF4A4F 30%, #A63CAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#emailPlug:hover {
+  background: -webkit-linear-gradient( #B5B5AB 0%, #E6E2D6 30%,	#E65A4D 70%, #B43830 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#showAndy {
+  opacity: 0%;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 12px;
+  padding-left: 5px;
+
+}
+
+#instaPlug:hover + #showAndy {
+  opacity: 100%;
 }

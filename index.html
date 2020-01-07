@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>Home</title>
+    <meta charset="UTF-8">
     <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
     <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="theme.css" type="text/css">
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -38,11 +40,11 @@
               a work in progress so check back from time to time!</p>
             <p id="intro" style="text-align: right;">- Aaron Hong</p>
           </div>
-          <img id="pfp" src="pics/pfp (2).jpg" alt="Profile Picture">
+          <img id="pfp" src="pics/pfp.jpg" alt="Profile Picture" onclick="changeProfile()">
         </div>
       </div>
       <div id="plugMyIg">
-        <p id="thePlug">Check out my Instagram on the "About" page!</p>
+        <p id="thePlug" onmouseover="changePlug()" onmouseout="removePlug()">Check out my Instagram on the "About" page!</p>
       </div>
     </main>
   </body>
