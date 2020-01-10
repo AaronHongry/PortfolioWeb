@@ -197,7 +197,7 @@ html {
 
 /* ----- Resume Section ----- */
 #showResume {
-  height: 1070px;
+  height: 1050px;
   overflow: hidden;
   display: none;
 }
@@ -216,7 +216,13 @@ html {
   filter: brightness(150%);
 }
 
-
+#issaResume {
+  position: relative;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  float: none;
+}
 /* ----- Social Media Section ----- */
 .everything u {
   color: white;
