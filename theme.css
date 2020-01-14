@@ -186,6 +186,71 @@ html {
   color: white;
 }
 
+/* ---------- css for projects page --------- */
+
+/* ----------- css for hobbies and skills page ---------- */
+.headerForHobbies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbyTitle {
+  padding: 5px 5px 5px 10px;
+  color: white;
+  font-size: 22px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hobbyTitle:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 5px 5px 5px 15px;
+}
+
+.hobbySubtitle {
+  padding: 0px 5px 5px 10px;
+  color: #479DBF;
+  font-size: 18px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hobbySubtitle:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 0px 5px 5px 15px;
+}
+
+.theDate {
+  padding: 5px 10px 5px 5px;
+  color: white;
+  font-size: 16px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.theDate:hover {
+  padding: 5px 15px 5px 5px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hobbyDescription {
+  color: white;
+  padding: 0px 5px 5px 10px;
+}
+
+.everything video {
+  padding: 0px 5px 5px 10px;
+}
+
 /* ----------- css for about page ----------- */
 
 #introAbout {
