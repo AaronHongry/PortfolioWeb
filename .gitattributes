@@ -1,5 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-vids/DemonSlayer19.mp4 filter=lfs diff=lfs merge=lfs -text
-vids/Giorno.mp4 filter=lfs diff=lfs merge=lfs -text
-vids/DemonSlayerOP.mp4 filter=lfs diff=lfs merge=lfs -text
