@@ -247,8 +247,10 @@ html {
   padding: 0px 5px 5px 10px;
 }
 
-.everything video {
+.everything iframe {
   padding: 0px 5px 5px 10px;
+  width: 512px;
+  height: 288px;
 }
 
 /* ----------- css for about page ----------- */
