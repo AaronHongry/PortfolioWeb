@@ -16,7 +16,7 @@ html {
 .everything {
   background-color: #2A3645;
   margin: 10px 20px 10px 20px;
-  border: 3px solid #C5C6C7;
+  border: 3px solid white;
 }
 
 /*---------- The default bar at the top ----------*/
@@ -94,7 +94,7 @@ html {
   height: 20px;
   background-color: #1F2833;
   color: #66FCF1;
-  border: 1px solid #C5C6C7;
+  border: 1px solid white;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
@@ -138,7 +138,7 @@ html {
 }
 
 #intro {
-  color: #C5C6C7;
+  color: white;
   font-size: 24px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 20px 20px 0px 20px;
@@ -254,7 +254,7 @@ html {
 /* ----------- css for about page ----------- */
 
 #introAbout {
-  color: #C5C6C7;
+  color: white;
   font-size: 18px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 20px 20px 0px 20px;
@@ -270,7 +270,7 @@ html {
 #styleOpenResume {
   background-color: #1F2833;
   color: #66FCF1;
-  border: 2px solid #C5C6C7;
+  border: 2px solid white;
   padding: 5px 30px 5px 30px;
   font-size: 14px;
   -webkit-transition-duration: 0.2s;
@@ -290,11 +290,11 @@ html {
 }
 /* ----- Social Media Section ----- */
 .everything u {
-  color: #C5C6C7;
+  color: white;
 }
 
 #SocialMediaTitle {
-  color: #C5C6C7;
+  color: white;
   font-size: 24px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 5px 20px 0px 20px;
@@ -305,7 +305,7 @@ html {
 }
 
 #socials li {
-  color: #C5C6C7;
+  color: white;
   font-size: 18px;
   padding-top: 5px;
 }
