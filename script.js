@@ -11,7 +11,7 @@ function changeProfile() {
   }
   else if (x.getAttribute("src") == "pics/pfp2.jpg") {
     x.setAttribute("src", "pics/pfp.jpg");
-    x.style.width = "800px";
+    x.style.width = "1200px";
   }
 }
 

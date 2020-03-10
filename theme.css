@@ -9,21 +9,21 @@ body {
 }
 
 html {
-  background-image: linear-gradient(to bottom, #373445, #312E3D);
+  background-image: linear-gradient(to bottom, #1F2833, #0B0C10);
   height: 100%;
 }
 
 .everything {
-  background-color: #2D4F61;
+  background-color: #2A3645;
   margin: 10px 20px 10px 20px;
-  border: 3px solid white;
+  border: 3px solid #C5C6C7;
 }
 
 /*---------- The default bar at the top ----------*/
 /*--- Title ---*/
 .myName {
-  background-image: linear-gradient(to top right, #479DBF, #6EB2C7);
-  color: #373445;
+  background-image: linear-gradient(to top right, #0B0C10, #1F2833);
+  color: #66FCF1;
 }
 
 .myName h1 {
@@ -92,16 +92,16 @@ html {
   border: none;
   flex: 1;
   height: 20px;
-  background-color: #365268;
-  color: white;
-  border: 1px solid white;
+  background-color: #1F2833;
+  color: #66FCF1;
+  border: 1px solid #C5C6C7;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
 .navigation button:hover {
-  background-color: white;
-  color: #365268;
+  background-color: #66FCF1;
+  color: #1F2833;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
@@ -122,9 +122,7 @@ html {
 
 .homeName {
   font-size: 40px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  color: #479DBF;
+  color: #66FCF1;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
   overflow: visible;
   text-align: center;
@@ -140,15 +138,15 @@ html {
 }
 
 #intro {
-  color: white;
+  color: #C5C6C7;
   font-size: 24px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 20px 20px 0px 20px;
 }
 
 #pfp {
-  width: 800px;
-  border: 10px solid white;
+  width: 1200px;
+  border: 10px solid #C5C6C7;
   box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.7);
   transition-duration: 0.3s;
   margin: 10px;
@@ -183,7 +181,7 @@ html {
 #thePlug {
   float: right;
   font-style: italic;
-  color: white;
+  color: #C5C6C7;
 }
 
 /* ---------- css for projects page --------- */
@@ -196,7 +194,7 @@ html {
 
 .hobbyTitle {
   padding: 5px 5px 5px 10px;
-  color: white;
+  color: #66FCF1;
   font-size: 22px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
   overflow: visible;
@@ -212,7 +210,7 @@ html {
 
 .hobbySubtitle {
   padding: 0px 5px 5px 10px;
-  color: #479DBF;
+  color: #45A29E;
   font-size: 18px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
   overflow: visible;
@@ -228,7 +226,7 @@ html {
 
 .theDate {
   padding: 5px 10px 5px 5px;
-  color: white;
+  color:#45A29E;
   font-size: 16px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
   overflow: visible;
@@ -243,7 +241,7 @@ html {
 }
 
 .hobbyDescription {
-  color: white;
+  color: #C5C6C7;
   padding: 0px 5px 5px 10px;
 }
 
@@ -256,7 +254,7 @@ html {
 /* ----------- css for about page ----------- */
 
 #introAbout {
-  color: white;
+  color: #C5C6C7;
   font-size: 18px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 20px 20px 0px 20px;
@@ -270,9 +268,9 @@ html {
 }
 
 #styleOpenResume {
-  background-color: #373445;
-  color: white;
-  border: 2px solid white;
+  background-color: #1F2833;
+  color: #66FCF1;
+  border: 2px solid #C5C6C7;
   padding: 5px 30px 5px 30px;
   font-size: 14px;
   -webkit-transition-duration: 0.2s;
@@ -292,11 +290,11 @@ html {
 }
 /* ----- Social Media Section ----- */
 .everything u {
-  color: white;
+  color: #C5C6C7;
 }
 
 #SocialMediaTitle {
-  color: white;
+  color: #C5C6C7;
   font-size: 24px;
   text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
   padding: 5px 20px 0px 20px;
@@ -307,7 +305,7 @@ html {
 }
 
 #socials li {
-  color: white;
+  color: #C5C6C7;
   font-size: 18px;
   padding-top: 5px;
 }
@@ -318,7 +316,7 @@ html {
 }
 
 #socials li a {
-  color: white;
+  color: #C5C6C7;
   font-size: 16px;
   text-decoration: none;
   -webkit-transition-duration: 0.3s;
