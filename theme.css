@@ -185,6 +185,87 @@ html {
 }
 
 /* ---------- css for projects page --------- */
+.headerForProjects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  padding: 5px 5px 5px 10px;
+  color: #66FCF1;
+  font-size: 22px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.projectTitle:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 5px 5px 5px 15px;
+}
+
+.projectSubtitle {
+  padding: 0px 5px 5px 10px;
+  color: #45A29E;
+  font-size: 18px;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+  overflow: visible;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.projectSubtitle:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 0px 5px 5px 15px;
+}
+
+.projectDescription {
+  color: #C5C6C7;
+  padding: 0px 5px 5px 10px;
+}
+
+.styleOpenProject {
+  background-color: #1F2833;
+  color: #66FCF1;
+  border: 2px solid white;
+  padding: 5px 30px 5px 30px;
+  font-size: 14px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.styleOpenProject:hover {
+  filter: brightness(150%);
+}
+
+.sortScreen {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  padding: 5px 0px 10px 5px;
+}
+
+.sortScreen button {
+  background-color: #1F2833;
+  color: #66FCF1;
+  border: 2px solid white;
+  padding: 3px 20px 3px 20px;
+  font-size: 12px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.sortScreen button:hover {
+  filter: brightness(150%);
+}
+
+.sortScreen img {
+  border: 5px solid #C5C6C7;
+}
 
 /* ----------- css for hobbies and skills page ---------- */
 .headerForHobbies {

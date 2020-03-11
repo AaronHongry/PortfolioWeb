@@ -31,7 +31,34 @@
     <main>
       <h3 class="homeName">Projects</h3>
       <div class="everything">
-
+        <div >
+          <div class="headerForProjects">
+            <h4 class="projectTitle">Mocking Spongebob</h4>
+            <h5 class="theDate">October 1, 2018</h5>
+          </div>
+          <h5 class="projectSubtitle" style="color: #CA4C00;">Java</h5>
+          <p class="projectDescription">This is a very simple program created to
+            take a set quantity of texts as an input and outputs it in
+            alternating uppercase and lowercase. The program takes into account
+            punctuation and will flip letters. This was originally created for
+            Dmoj; an online platform with programming problems, however I kept
+            this program because of the overwhelming use of the meme throughout
+            late-2018 to early-2019.</p>
+          <div style="padding: 5px 10px 5px 20px;">
+            <button class="styleOpenProject" id="styleOpenSpongeBob" onclick="openSpongeBob()">Show Screenshots</button>
+          </div>
+          <div class="projectScreen" id="showSpongeBob" style="display: none;">
+            <div class="sortScreen">
+              <div>
+                <button id="previousButtonSpongeBob" onclick="prevSpongeBob()">Previous</button>
+              </div>
+              <img id="spongePic" src="../pics/MockingSpongebob/mockingSpongeBob1.JPG">
+              <div>
+                <button id="nextButtonSpongeBob" onclick="nextSpongeBob()">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>

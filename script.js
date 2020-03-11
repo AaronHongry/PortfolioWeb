@@ -25,6 +25,45 @@ function removePlug() {
   x.innerHTML = 'Check out my Instagram on the "About" page!';
 }
 
+// ---------- JS for Projects Page ---------- //
+// ----- Mocking SpongeBob ----- //
+function openSpongeBob() {
+  var x = document.getElementById("showSpongeBob");
+  var y = document.getElementById("styleOpenSpongeBob");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.innerHTML = "Hide Screenshots";
+  }
+  else {
+    x.style.display = "none";
+    y.innerHTML = "Show Screenshots"
+  }
+}
+
+function prevSpongeBob() {
+  var x = document.getElementById("spongePic");
+  if (x.getAttribute("src") == "../pics/MockingSpongebob/mockingSpongeBob1.JPG") {
+    x.setAttribute("src", "../pics/MockingSpongebob/mockingSpongeBob2.jpg");
+    x.style.width = "600px";
+  }
+  else {
+    x.setAttribute("src", "../pics/MockingSpongebob/mockingSpongeBob1.JPG");
+    x.style.width = "505px";
+  }
+}
+
+function nextSpongeBob() {
+  var x = document.getElementById("spongePic");
+  if (x.getAttribute("src") == "../pics/MockingSpongebob/mockingSpongeBob1.JPG") {
+    x.setAttribute("src", "../pics/MockingSpongebob/mockingSpongeBob2.jpg");
+    x.style.width = "600px";
+  }
+  else {
+    x.setAttribute("src", "../pics/MockingSpongebob/mockingSpongeBob1.JPG");
+    x.style.width = "505px";
+  }
+}
+
 
 // ---------- JS for About Page ---------- //
 function openResume() {
